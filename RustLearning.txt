@@ -1,0 +1,63 @@
+What is Rust
+
+ - is a systems programming language like C and C++
+ - Rust uses compiler - means that the code is translated from our code to machinecode
+
+Rust started as side project by Graydon Hoare in 2007
+
+Rust is most admired language for 7 consecutive years by programmers - data from Stack Overflow survey
+
+Reason for love is Rust has nice balance - Speed, Safety, Concurency, Portability
+
+"Cargo" is package manager for Rust
+
+Rust webpage is rust-lang.org
+
+Install Rust Linux
+
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+
+Check after install if it is OK
+
+in terminal
+
+$ rustup --version
+
+$ cargo --version
+
+For me these commands did not work right away, was necessary to restart terminal
+
+
+
+
+Hello World program
+
+create folder - in my case folder RustHelloWorld and in this folder file hello.rs
+
+Main entry point in program is main function
+
+When we have our code done, we can try to run program, command
+
+$ rustc hello.rs
+
+if there are no errors will run generated file, in this case hello - in Linux without type. In Windows
+is hello.exe
+
+run generated file
+
+$ ./hello
+
+result in terminal is Hello World!
+
+
+
+
+
+
+
+
+
+
+
+
+
