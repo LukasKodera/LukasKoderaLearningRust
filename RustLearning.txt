@@ -1,5 +1,6 @@
 What is Rust
 
+
  - is a systems programming language like C and C++
  - Rust uses compiler - means that the code is translated from our code to machinecode
 
@@ -48,6 +49,43 @@ run generated file
 $ ./hello
 
 result in terminal is Hello World!
+
+
+Same program by Cargo package manager
+
+in terminal
+
+$ cargo new helloProject
+
+will create folder called helloProject
+
+In the folder helloProject, there is file Cargo.toml and folder src
+
+Cargo.toml contains settings for our project
+
+When we want to run code from cargo "cd" into given folder and in terminal
+
+$ cargo run
+
+
+Primitive data types
+
+ - Rust is statically typed language
+ 
+ - there are four - int, float, bool, char
+
+
+INT
+
+ - i8, i16, i32, i64, i128: signed integers - can store negative and positive integers
+ - u8, u16, u32, u64, u128: unsigned integers - can only store positive integers
+
+
+
+
+
+
+
 
 
 
