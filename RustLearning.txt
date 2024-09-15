@@ -1,6 +1,5 @@
 What is Rust
 
-
  - is a systems programming language like C and C++
  - Rust uses compiler - means that the code is translated from our code to machinecode
 
@@ -41,8 +40,7 @@ When we have our code done, we can try to run program, command
 
 $ rustc hello.rs
 
-if there are no errors will run generated file, in this case hello - in Linux without type. In Windows
-is hello.exe
+if there are no errors will run generated file, in this case hello - in Linux without type. In Windows is hello.exe
 
 run generated file
 
@@ -68,6 +66,9 @@ When we want to run code from cargo "cd" into given folder and in terminal
 $ cargo run
 
 
+
+
+
 Primitive data types
 
  - Rust is statically typed language
@@ -75,10 +76,40 @@ Primitive data types
  - there are four - int, float, bool, char
 
 
-INT
+INT (Intergers)
 
  - i8, i16, i32, i64, i128: signed integers - can store negative and positive integers
  - u8, u16, u32, u64, u128: unsigned integers - can only store positive integers
+
+Floats
+
+ - f32, f64
+
+Boolean
+
+
+Character Type - char
+
+
+Compound data types
+
+arrays, tuples, slices, and strings (slice string)
+
+Arrays are sets of elements of the same type
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
