@@ -99,6 +99,14 @@ Arrays are sets of elements of the same type
 
 
 
+Tuples are types - lists where is possible to mix different types (string with integer)
+
+
+Slices - a reference to a contiguous sequence of elements in a collection
+
+
+
+String vs String Slices - Strings are [growable, mutable, owned string type]
 
 
 
